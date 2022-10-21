@@ -1,0 +1,78 @@
+<mxfile host="65bd71144e">
+    <diagram id="nCl3FJlKIc-3DkQRVR9U" name="Página-1">
+        <mxGraphModel dx="650" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontColor=#000000;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF9999;fontColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="80" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontColor=#000000;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="num" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFF99;fontColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="160" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontColor=#000000;" parent="1" source="5" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;text-align: justify&quot;&gt;digito1 = num%10&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;digito2 = (num%100)//10&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;suma = digito1 + digito2&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#9999FF;fontColor=#000000;strokeColor=#000000;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="240" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fontColor=#000000;" parent="1" source="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="440" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="360" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" parent="1" source="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="120" y="400"/>
+                        </Array>
+                        <mxPoint x="120" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="result &amp;lt; 10&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="360" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&quot;El resultado de la suma es un número de un dígito.&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFF99;fontColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="440" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="FIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF9999;fontColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="590" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="380" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="380" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&quot;El resultado de la suma no es un número de un dígito.&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFF99;fontColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="440" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=none;html=1;strokeColor=#000000;fontColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="510" as="sourcePoint"/>
+                        <mxPoint x="360" y="510" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="120" y="550"/>
+                            <mxPoint x="360" y="550"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontColor=#000000;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="239.76" y="550" as="sourcePoint"/>
+                        <mxPoint x="239.76" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
